@@ -96,7 +96,7 @@ int main(){
     Solution ob1;
     vector<int> a1 = {1,2,3,3,4,4,5};
     ListNode* l1 = ob.CreateList(a1);
-    ListNode* ans = ob1.deleteDuplicates(l1);
+    ListNode* ans = ob1.reverseBetween(l1,2,4);
     ob.PrintList(ans);
     cout << "\n";
     return 0;
